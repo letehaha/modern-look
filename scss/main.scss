@@ -107,17 +107,7 @@
 }
 .wrapper_works{
 	width: 100%;
-	.column{
-		display: inline-flex;
-		flex-direction: column;
-	}
-	.work{
-		margin: 10px;
-		background-color: #2c2c2c;
-		img{
-			width: 100%;
-		}
-	}
+
 }
 
 .snowboard{
@@ -310,6 +300,7 @@
 			color: #fff;
 			padding: 10px;
 			background-color: #666565;
+			cursor: pointer;
 		}
 		input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     	text-transform: uppercase;
