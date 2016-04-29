@@ -9,13 +9,13 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'LatoHair';
+    font-family: 'Lato';
     src: url('lato-hairline.eot');
     src: url('lato-hairline.eot?#iefix') format('embedded-opentype'),
          url('lato-hairline.woff') format('woff'),
          url('lato-hairline.ttf') format('truetype'),
          url('lato-hairline.svg#LatoHair') format('svg');
-    font-weight: normal;
+    font-weight: 100;
     font-style: normal;
 }
 @font-face {

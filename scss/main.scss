@@ -1,2 +1,347 @@
 @import 'variable.scss';
 
+.header{
+	background: url('../img/bg-header.png') no-repeat;
+	background-size: cover;
+	height: 100vh;
+	max-height: 920px;
+}
+.top_nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 25px;
+	.list_left, .list_right{
+		display: inline-flex;
+		align-items: center;
+	}
+	li{
+		display: inline-block;
+		a{
+			color: #c6c4ba;
+			font: 300 30px/50px $lato;
+			text-transform: uppercase;
+		}
+		&:not(:last-child){
+			padding-right: 55px;
+		}
+	}
+}
+.intro_header{
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h1{
+		font: 300 80px/100px $lato;
+		color: #fff;
+		text-transform: uppercase;
+		letter-spacing: 20px;
+		position: relative;
+		span{
+			color: #c6c4ba;
+		}
+	}
+}
+
+.quote{
+	h1{
+		padding: 55px 135px;
+		font: normal 49px/100px $playfair;
+		color: #111111;
+		text-transform: uppercase;
+		position: relative;
+		span{
+			color: #8b8194;
+		}
+		&:after{
+			content: '';
+			position: absolute;
+			background: url('../img/pictures/sub.png') no-repeat;
+			width: 146px;
+			height: 110px;
+			left: 82%;
+		}
+		&:before{
+			content: '';
+			position: absolute;
+			background: url('../img/pictures/sup.png') no-repeat;
+			width: 146px;
+			height: 110px;
+			left: 6%;
+		}
+	}
+}
+
+.portflio{
+	background: url('../img/bg-folio.png') no-repeat;
+	background-size: cover;
+}
+.intro_s{
+	text-align: center;
+	h2{
+		font: 100 94px/100px $lato;
+		text-transform: uppercase;
+		color: #fff;
+		padding-top: 100px;
+	}
+}
+.list_mix{
+	text-align: right;
+	margin-top: 50px;
+	li{
+		display: inline-block;
+		padding: 10px;
+		&:last-child{
+			padding-right: 0;
+		}
+		a{
+			color: #666565;
+			font-size: 20px;
+			font-weight: 300;
+		}
+	}
+	.active{
+		border-bottom: 1px solid #666565;
+	}
+}
+.wrapper_works{
+	width: 100%;
+	.column{
+		display: inline-flex;
+		flex-direction: column;
+	}
+	.work{
+		margin: 10px;
+		background-color: #2c2c2c;
+		img{
+			width: 100%;
+		}
+	}
+}
+
+.snowboard{
+	height: 500px;
+	background: url('../img/bg-snowboard.png') no-repeat;
+	background-size: cover;
+}
+
+.about{
+	background-color: #666565;
+}
+.wrapper_about{
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 0;
+	.box-about{
+		width: 49%;
+		display: inline-flex;
+		justify-content: space-between;
+		background-color: #111111;
+		.box-about-img{
+			width: 50%;
+			img{
+				width: 100%;
+			}
+		}
+		.box-about-text{
+			width: 50%;
+			h3{
+				text-transform: uppercase;
+				color: #fff;
+				font-size: 37px;
+				font-weight: 300;
+				padding: 45px 20px;
+			}
+			p{
+				font-size: 16px;
+				color: #c6c4ba;
+				font-weight: 300;
+				line-height: 24px;
+				padding: 20px;
+			}
+		}
+	}
+}
+
+.some{
+	h1{
+		padding: 55px 0;
+		font: normal 49px/80px $playfair;
+		color: #111111;
+		text-transform: uppercase;
+		position: relative;
+		text-align: center;
+		span{
+			color: #8b8194;
+		}
+	}
+}
+
+.blog{
+	background: url('../img/bg-blog.png') no-repeat;
+	background-size: cover;
+	.blog_a{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 30px;
+		line-height: 36px;
+		font-weight: 300;
+		color: #fff;
+		margin: 50px 0 100px;
+		display: block;
+	}
+}
+.wrapper_blog{
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 0 0;
+	.box-blog{
+		width: 32%;
+		hr{
+			background-color: #1a151f;
+			border: none;
+			height: 1px;
+			border-bottom: 1px solid #534461;
+		}
+	}
+}
+.box-blog-img{
+	img{
+		width: 100%;
+	}
+}
+.box-blog-text{
+	min-height: 400px;
+	h3{
+		text-transform: uppercase;
+		font-size: 30px;
+		color: #fff;
+		line-height: 40px;
+		font-weight: 300;
+		padding: 25px 0;
+	}
+	p{
+		font: 300 italic 16px/24px $lato;
+		color: #a397ad;
+	}
+}
+.box-blog-footer{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	p{
+		font: 300 italic 14px/24px $lato;
+		color: #a397ad;
+		text-transform: uppercase;
+	}
+	a{
+		text-transform: uppercase;
+		font-size: 14px;
+		color: #c6c4ba;
+		line-height: 24px;
+		font-weight: 300;
+	}
+}
+
+.house{
+	height: 800px;
+	background: url('../img/bg-lighthouse.png') no-repeat;
+	background-size: cover;
+}
+
+.footer{
+	background: url('../img/bg-contact.png') no-repeat;
+	background-size: cover;
+}
+.wrapper_footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0 200px;
+	.footer_text{
+		width: 47%;
+		.wrapper_footer-text{
+			width: 65%;
+			h3{
+				text-transform: uppercase;
+				font-size: 30px;
+				line-height: 36px;
+				font-weight: 300;
+				color: #fff;
+				padding-bottom: 50px;
+			}
+			p{
+				font-size: 16px;
+				line-height: 24px;
+				font-weight: 300;
+				color: #a397ad;
+				a{
+					color: inherit;
+				}
+			}
+			p:last-child{
+				padding: 35px 0 35px;
+			}
+		}
+	}
+	.contact_icons{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -5px;
+		a{
+			margin: 5px;
+		}
+	}
+	.footer_form{
+		width: 35%;
+		textarea, input{
+			width: 100%;
+			padding: 15px 10px 10px;
+			margin-bottom: 20px;
+			background:none;
+			background-color: #2f2637;
+			border: none;
+			color: #fff;
+		}
+		input:last-child{
+			margin-bottom: 0;
+		}
+		input[type="submit"]{
+			color: #fff;
+			padding: 10px;
+			background-color: #666565;
+		}
+		input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    	text-transform: uppercase;
+    	color: #fff;
+    	font-size: 16px;
+    	font-weight: 300;
+		}
+		input:-moz-placeholder, textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   		text-transform: uppercase;
+   		color: #fff;
+   		font-size: 16px;
+   		font-weight: 300;
+   		opacity: 1;
+		}
+		input::-moz-placeholder, textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+   		text-transform: uppercase;
+   		color: #fff;
+   		font-size: 16px;
+   		font-weight: 300;
+   		opacity: 1;
+		}
+		input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   		text-transform: uppercase;
+   		color: #fff;
+   		font-size: 16px;
+   		font-weight: 300;
+		}
+	}
+}
+
+.map{
+	height: 500px;
+	background: url('../img/bg-map.png') no-repeat;
+	background-size: cover;
+}

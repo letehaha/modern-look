@@ -3,6 +3,9 @@
 *::before {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
 
 html {
@@ -11,8 +14,8 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-body {
-  margin: 0;
+body{
+  font-family: 'Lato', 'Arial', sans-serif;
 }
 
 article,
@@ -54,6 +57,7 @@ template, /* 1 */
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
+  text-decoration: none;
 }
 
 a:active,
@@ -233,4 +237,8 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
+}
+
+ol, ul{
+  list-style-type: none;
 }
