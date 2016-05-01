@@ -183,8 +183,6 @@
 
 .snowboard{
 	height: 500px;
-	background: url('../img/bg-snowboard.png') no-repeat;
-	background-size: cover;
 }
 
 .about{
@@ -306,9 +304,7 @@
 }
 
 .house{
-	height: 800px;
-	background: url('../img/bg-lighthouse.png') no-repeat;
-	background-size: cover;
+	min-height: 500px;
 }
 
 .footer{
@@ -404,6 +400,4 @@
 
 .map{
 	height: 500px;
-	background: url('../img/bg-map.png') no-repeat;
-	background-size: cover;
 }

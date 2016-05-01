@@ -6,4 +6,5 @@ $(function(){
 		$(".list_mix li").removeClass("active").animate();
 		$(this).addClass("active").animate();
 	});
+
 });
