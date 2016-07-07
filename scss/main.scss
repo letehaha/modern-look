@@ -1,7 +1,7 @@
 @import 'variable.scss';
 
 .header{
-	background: url('../img/bg-header.png') no-repeat;
+	background: url('../img/bg-header.jpg') no-repeat;
 	background-size: cover;
 	height: 100vh;
 	max-height: 920px;
@@ -74,8 +74,9 @@
 }
 
 .portflio{
-	background: url('../img/bg-folio.png') no-repeat;
+	background: url('../img/bg-folio.jpg') no-repeat;
 	background-size: cover;
+	background-color: #171312;
 	padding-bottom: 100px;
 	.folio_more_btn{
 		width: 100%;
@@ -182,7 +183,9 @@
 }
 
 .snowboard{
-	height: 500px;
+	height: 600px;
+	margin-top: -50px;
+	margin-bottom: -50px;
 }
 
 .about{
@@ -239,9 +242,10 @@
 }
 
 .blog{
-	background: url('../img/bg-blog.png') no-repeat;
+	background: url('../img/bg-blog.jpg') no-repeat;
 	background-size: cover;
 	padding-bottom: 100px;
+	background-color: #3A2F47;
 	.blog_a{
 		text-align: center;
 		text-transform: uppercase;
@@ -306,12 +310,13 @@
 }
 
 .house{
-	min-height: 500px;
+	min-height: 600px;
+	margin-top: -50px;
+	margin-bottom: -50px;
 }
 
 .footer{
-	background: url('../img/bg-contact.png') no-repeat;
-	background-size: cover;
+	background-color: #050505;
 }
 .wrapper_footer{
 	display: flex;
@@ -402,4 +407,8 @@
 
 .map{
 	height: 500px;
+	margin-top: -50px;
+	margin-bottom: -50px;
+	// background: url('../img/bg-map.jpg') center;
+	// background-size: cover;
 }
