@@ -210,9 +210,10 @@
       background-color: #2c2c2c; }
 
 .snowboard {
-  height: 600px;
-  margin-top: -50px;
-  margin-bottom: -50px; }
+  height: 400px;
+  background: url("../img/bg-snowboard.jpg") center;
+  background-size: cover;
+  background-attachment: fixed; }
 
 .about {
   background-color: #666565;
@@ -339,9 +340,10 @@
     font-weight: 300; }
 
 .house {
-  min-height: 600px;
-  margin-top: -50px;
-  margin-bottom: -50px; }
+  min-height: 400px;
+  background: url("../img/bg-lighthouse.jpg") center;
+  background-attachment: fixed;
+  background-size: cover; }
 
 .footer {
   background-color: #050505; }
@@ -432,6 +434,7 @@
       font-weight: 300; }
 
 .map {
-  height: 500px;
-  margin-top: -50px;
-  margin-bottom: -50px; }
+  height: 400px;
+  background: url("../img/bg-map.jpg") center;
+  background-attachment: fixed;
+  background-size: cover; }
