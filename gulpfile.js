@@ -57,6 +57,12 @@ gulp.task('build', ["clean", "sass"], function() {
     var buildJs = gulp.src('app/js/**/*') // Dest js in production
     .pipe(gulp.dest('dist/js'))
 
+    var buildLibs = gulp.src('app/libs/**/*') 
+    .pipe(gulp.dest('dist/libs'))
+
+    var buildFonts = gulp.src('app/fonts/**/*') 
+    .pipe(gulp.dest('dist/fonts'))
+
     var buildHtml = gulp.src('app/*.html') // Dest HTML in production
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist'));
